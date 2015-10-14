@@ -7,5 +7,4 @@
 
 ## ui:menuFocusChange
 <img src="http://f.st-hatena.com/images/fotolife/t/tyoshikawa1106/20151014/20151014112732.png" />
-
 <a href="https://developer.salesforce.com/docs/atlas.en-us.lightning.meta/lightning/ref_ui_menuFocusChange.htm?search_text=menu" target="_blank">https://developer.salesforce.com/docs/atlas.en-us.lightning.meta/lightning/ref_ui_menuFocusChange.htm?search_text=menu</a>
