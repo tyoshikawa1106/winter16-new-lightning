@@ -1,0 +1,3 @@
+<design:component>
+	<design:attribute name="color" datasource="red,blue,green" default="blue" />
+</design:component>

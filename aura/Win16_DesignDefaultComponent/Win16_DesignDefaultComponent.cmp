@@ -1,0 +1,6 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes">
+  <aura:attribute name="color" type="String" />
+  <div aura:id="lightning">
+    <ui:outputText value="{!v.color}" />
+  </div>
+</aura:component>

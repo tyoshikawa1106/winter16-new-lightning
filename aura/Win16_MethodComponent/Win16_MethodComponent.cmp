@@ -1,0 +1,16 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes">
+  
+  <aura:method name="sampleMethod" action="{!c.doAction}" access="PUBLIC" description="Sample method with parameters"> 
+    <aura:attribute name="showDetail" type="Boolean" default="true" />
+    <aura:attribute name="startDate" type="Date" default="2015-10-10" />
+    <aura:attribute name="lastModifiedDate" type="DateTime" default="2014-09-29T00:17:08z" />
+    <aura:attribute name="totalPrice" type="Decimal" default="1000.00" />
+    <aura:attribute name="widthInchesFractional" type="Double" default="1000.55"  />
+    <aura:attribute name="numRecords" type="Integer" default="1000"  />
+    <aura:attribute name="numSwissBankAccount" type="Long" default="Long!"  />
+    <aura:attribute name="message" type="String" default="String!" />
+    <aura:attribute name="strings" type="String[]" default="['red', 'green', 'blue']" /> <!-- no support -->
+  </aura:method>
+
+  <ui:button label="Press Me" press="{!c.handleClick}"/>
+</aura:component>
