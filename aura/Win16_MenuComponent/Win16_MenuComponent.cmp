@@ -1,0 +1,13 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes">
+    
+    <aura:registerEvent name="menuFocusChange"  type="ui:menuFocusChange"
+                    description="The event fired when the menu list focus changes from one menu item to another." />
+    
+	<ui:menu aura:id="ui-menu">
+        <ui:menuTriggerLink aura:id="trigger" label="Contacts"/>
+            <ui:menuList aura:id="actionMenu" menuFocusChange="{!c.handleChange}">
+                <ui:actionMenuItem aura:id="item1" label="All Contacts" />
+                <ui:actionMenuItem aura:id="item2" label="All Primary" />
+            </ui:menuList>
+    </ui:menu>
+</aura:component>

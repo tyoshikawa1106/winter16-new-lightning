@@ -1,0 +1,35 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes">
+    
+    <aura:attribute name="colorPaletteArray" type="String[]" default="['red', 'green', 'blue']" />
+	<aura:attribute name="colorPaletteList" type="List" default="['red', 'green', 'blue']" />
+	<aura:attribute name="colorPaletteSet" type="Set" default="['red', 'green', 'blue']" />
+    
+    <div aura:id="lightning">
+        <div class="string-demo">
+            <h1>String[]</h1>
+            <ul>
+                <aura:iteration items="{!v.colorPaletteArray}" var="item">
+                    <li>{!item}</li>
+                </aura:iteration>
+            </ul>
+        </div>
+        <hr />
+        <div class="list-demo">
+            <h1>List</h1>
+            <ul>
+                <aura:iteration items="{!v.colorPaletteList}" var="item">
+                    <li>{!item}</li>
+                </aura:iteration>
+            </ul>
+        </div>
+        <hr />
+        <div class="set-demo">
+            <h1>Set</h1>
+            <ul>
+                <aura:iteration items="{!v.colorPaletteSet}" var="item">
+                    <li>{!item}</li>
+                </aura:iteration>
+            </ul>
+        </div>
+    </div>
+</aura:component>

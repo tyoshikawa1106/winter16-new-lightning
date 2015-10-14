@@ -1,0 +1,12 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes">
+	<div aura:id="lightning">
+        <ui:button label="Save" aura:id="ui-button" />
+        <ui:inputText value="" label="inputText" aura:id="ui-inputText" />
+        <ui:inputCheckbox value="false" label="inputCheckbox" aura:id="ui-inputCheckbox" />
+        <ui:inputDate value="" label="inputDate" aura:id="ui-inputDate" />
+        <ui:inputDateTime value="" label="inputDateTime" aura:id="ui-inputDateTime" />
+        <ui:outputCheckbox value="true" aura:id="ui-outputCheckbox" />
+        <ui:inputRichText value="inputRichText" aura:id="ui-inputRichText" />
+        <ui:outputRichText value="outputRichText" aura:id="ui-outputRichText" />
+    </div>
+</aura:component>
